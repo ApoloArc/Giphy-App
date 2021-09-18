@@ -1,0 +1,57 @@
+body {
+  background-color: #e8e8e4;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 60px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+h1{
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+h1, p{
+  text-transform: uppercase;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  background-color: #e8e8e4;
+  width: 100%;
+  border-radius: 0;
+  color: black;
+  border: none;
+  border-bottom: 3px solid #e63946;
+  font-size: 2rem;
+}
+.titulo-category{
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-auto-flow: dense;
+  gap: 2rem;
+}
+.title-card{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+}
