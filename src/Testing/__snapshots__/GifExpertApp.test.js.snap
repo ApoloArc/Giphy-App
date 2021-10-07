@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Haciendo pruebas en el Expert App Debe de pasar las categories que se le manden 1`] = `
+<Fragment>
+  <h1>
+    Gif Expert App
+  </h1>
+  <SearchBar
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+    <GifGrid
+      category="El Chavo del 8"
+      key="El Chavo del 8"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Haciendo pruebas en el Expert App Tomar el snapshot 1`] = `
+<Fragment>
+  <h1>
+    Gif Expert App
+  </h1>
+  <SearchBar
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;

@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import GifGrid from './Components/GifGrid';
 import { SearchBar } from './Components/SearchBar';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
 
-    const [categories, setCategories] = useState(['One Punch Man']);
+    // const [categories, setCategories] = useState(['One Punch Man']);
+    
+    const [categories, setCategories] = useState(defaultCategories);
 
     // const sumarCategoria = () => {
     //     setCategories(categories =>[...categories, 'El Chavo del 8'])

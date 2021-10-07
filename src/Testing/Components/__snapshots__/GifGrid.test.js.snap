@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el GifGid debe de tomar el snapshot 1`] = `
+<div>
+  <h3
+    className="titulo-category"
+  >
+    Hola Mundo
+  </h3>
+  <p
+    className="animate__animated animate__fadeInDown"
+  >
+    Cargando, espera compare...
+  </p>
+  <div
+    className="grid"
+  />
+</div>
+`;

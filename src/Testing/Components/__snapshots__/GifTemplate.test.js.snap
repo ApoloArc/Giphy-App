@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debe de mostrar el <GifTemplate/> Mostrar el componente correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <img
+    alt="Esto es un título"
+    src="https://apolo.com/img.jpg"
+  />
+  <p
+    className="title-card"
+  >
+    Esto es un título
+  </p>
+</div>
+`;

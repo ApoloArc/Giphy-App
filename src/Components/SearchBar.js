@@ -13,8 +13,9 @@ export const SearchBar = ({setCategories}) => {
     const sinRefresh = e =>{
         e.preventDefault();
         
-        setCategories(e=>[busqueda, ...e]);
-        setBusqueda('');
+        if(busqueda.trim().length > 2){
+        setCategories(e =>[busqueda, ...e]);
+        setBusqueda('');}
     }
 
     return (
