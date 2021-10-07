@@ -12,7 +12,7 @@ body {
   color: black;
 }
 h1{
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: 'Roboto', sans-serif;
 }
 h1, p{
@@ -48,6 +48,7 @@ input{
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-auto-flow: dense;
   gap: 1.5rem;
+  width: 100%;
 }
 .title-card{
   font-size: 1rem;
